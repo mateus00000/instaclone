@@ -25,7 +25,6 @@ import com.instagram.clone.dto.UserProfileDTO;
 import com.instagram.clone.model.User;
 import com.instagram.clone.repository.UserRepository;
 import com.instagram.clone.service.FeedService;
-import com.instagram.clone.service.LikeService;
 import com.instagram.clone.service.PostService;
 import com.instagram.clone.service.UserService;
 
@@ -34,9 +33,6 @@ import com.instagram.clone.service.UserService;
 public class UserController {
     @Autowired
     private PostService postService;
-
-    @Autowired
-    private LikeService likeService;
     
     @Autowired
     private UserService userService;

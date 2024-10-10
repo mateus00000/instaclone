@@ -33,6 +33,8 @@ import java.util.Optional;
 public class AuthController {
     private final UserRepository repository;
     private final PasswordEncoder passwordEncoder;
+
+    @Autowired
     private final TokenService tokenService;
 
     @Autowired
